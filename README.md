@@ -12,6 +12,7 @@ virtualenvironment wrapper installed in pip
 
 ### Install requirements
 `pip install -r requirements`
+`bower install`
 
 ### Setup database
 Make sure your local database is running and open it with
