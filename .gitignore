@@ -6,3 +6,5 @@ app/static/.DS_Store
 *.pyc
 *.css
 app/static/bower_components
+venv
+node_modules

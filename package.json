@@ -1,0 +1,17 @@
+{
+  "name": "Flask-Template",
+  "version": "1.0.0",
+  "main": "null",
+  "repository": "git@github.com:pwgraham91/Coffee-Connection.git",
+  "author": "Peter Graham <pwgraham91@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "less": "^3.0.1",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "less": "less-watch-compiler app/static/css app/static/css"
+  }
+}

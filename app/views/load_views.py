@@ -1,2 +1,2 @@
-import index_view
-import login_view
+from . import index_view
+from . import login_view

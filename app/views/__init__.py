@@ -3,7 +3,7 @@ from flask_login import current_user
 
 from app import app, login_manager
 from app.models import User
-import load_views
+from . import load_views
 
 
 @login_manager.user_loader

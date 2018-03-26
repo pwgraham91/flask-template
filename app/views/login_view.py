@@ -1,5 +1,5 @@
 import json
-from urllib2 import HTTPError
+from urllib3.exceptions import HTTPError
 
 import flask
 from flask import redirect

@@ -23,4 +23,16 @@ class User(db.Model):
         return False
 
     def get_id(self):
-        return unicode(self.id)
+        return self.id
+
+    @property
+    def dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'email': self.email,
+            'admin': self.admin,
+            'avatar': self.avatar,
+            'active': self.active,
+            'created_at': str(self.created_at) if self.created_at else None
+        }
