@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "less": "^3.0.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "less": "less-watch-compiler app/static/css app/static/css"
